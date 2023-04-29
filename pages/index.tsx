@@ -1,3 +1,4 @@
+import BillBoard from "@/components/BillBoard";
 import NavBar from "@/components/NavBar";
 import useCurrentUser from "@/hooks/useCurrentUser";
 import { NextPageContext } from "next";
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
+      <BillBoard />
     </>
   );
 }
